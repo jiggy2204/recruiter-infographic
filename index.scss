@@ -1,0 +1,391 @@
+@media only screen and (max-width: 1920px) {
+  body {
+    font-family: "canada-type-gibson", sans-serif;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    #peepTitle {
+      position: relative;
+      z-index: 1000;
+      width: fit-content;
+      text-align: center;
+      background-color: #0195d3;
+      color: white;
+      padding: 7%;
+      margin-bottom: 5%;
+      border-radius: 10px;
+      animation: bounceIn 0.5s;
+      transition: all 0.75s ease;
+    }
+
+    #popup {
+      background: rgba(255, 255, 255, 0.8);
+      width: 0vw;
+      height: 30vh;
+      z-index: 999;
+
+      .peepInfo {
+        color: #021a32;
+        width: 20%;
+        height: fit-content;
+        top: 45%;
+        transform: translateY(-50%);
+        opacity: 0;
+
+        .popupText {
+          line-height: 1.75rem;
+        }
+
+        #closeBtn {
+          background: #f8971d;
+          padding: 3%;
+          width: 100px;
+          height: 15px;
+          color: white;
+          text-align: center;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .zoom-box {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background: url("_assets/infographic_background_extended.jpg") no-repeat
+        bottom;
+      transform: scale(1);
+      transition: all 0.75s ease;
+
+      header {
+        background: rgba(255, 255, 255, 0.8);
+        width: 100vw;
+        height: 15vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .intro-text {
+          color: #021a32;
+          font-size: 1.45rem;
+          font-weight: 100;
+          margin: 2% 5%;
+          line-height: 2rem;
+          text-align: center;
+        }
+
+        menu {
+          margin: 2% auto;
+          padding: 0;
+          width: 75vw;
+          height: 75px;
+          background: white;
+          display: flex;
+          box-shadow: 0px 0px 15px #aaa;
+          border-radius: 25px;
+          justify-content: center;
+          align-items: center;
+
+          p {
+            width: 100px;
+            text-align: center;
+            color: #0195d3;
+            font-weight: 300;
+            font-size: 1.15rem;
+            border-radius: 25px;
+            padding: 25px 9%;
+            transition: all 0.25s ease;
+
+            &:hover {
+              cursor: pointer;
+              color: #fff;
+              background: #0195d3;
+            }
+
+            &.selected {
+              color: #fff;
+              background: #0195d3;
+            }
+          }
+        }
+      }
+
+      main {
+        #leadership {
+          position: absolute;
+          top: 70vh;
+          width: 100vw;
+          display: flex;
+          align-items: flex-end;
+
+          &.inactive {
+            display: none;
+          }
+
+          #back-table {
+            position: absolute;
+            left: 10vw;
+            bottom: 1vh;
+          }
+
+          #dna-holder,
+          #nam-holder,
+          #edbo-holder,
+          #dl-holder,
+          #dbo-holder,
+          #rvp-holder,
+          #dm-holder {
+            position: absolute;
+
+            &.peep {
+              height: auto;
+              transition: all 0.5s ease;
+            }
+          }
+
+          #dm-holder {
+            left: 35vw;
+          }
+
+          #dbo-holder {
+            left: 32vw;
+          }
+
+          #dl-holder {
+            left: 27vw;
+          }
+
+          #edbo-holder {
+            left: 23vw;
+          }
+
+          #nam-holder {
+            left: 18vw;
+          }
+
+          #dna-holder {
+            left: 13vw;
+          }
+
+          #rvp-holder {
+            left: 4vw;
+          }
+        }
+
+        #production {
+          width: 100vw;
+          height: auto;
+
+          &.inactive {
+            display: none;
+          }
+
+          #middle-scene {
+            position: absolute;
+            top: 80vh;
+            width: 100vw;
+            display: flex;
+            align-items: flex-end;
+
+            #mid-table {
+              position: absolute;
+              left: 63vw;
+              margin-top: 1%;
+            }
+
+            #arm-holder,
+            #nr-holder,
+            #rl-holder,
+            #amrl-holder {
+              position: absolute;
+
+              &.peep {
+                height: auto;
+                transition: all 0.25s ease;
+              }
+            }
+
+            #arm-holder {
+              left: 60vw;
+            }
+
+            #nr-holder {
+              left: 67vw;
+            }
+
+            #rl-holder {
+              left: 73vw;
+            }
+
+            #amrl-holder {
+              left: 80vw;
+            }
+          }
+
+          #midFront-scene {
+            position: absolute;
+            top: 87vh;
+            width: 100vw;
+            display: flex;
+            align-items: flex-end;
+
+            #am-holder,
+            #bdm-holder {
+              position: absolute;
+
+              &.peep {
+                height: auto;
+                transition: all 0.25s ease;
+              }
+            }
+
+            #bdm-holder {
+              left: 50vw;
+            }
+
+            #am-holder {
+              left: 43vw;
+            }
+          }
+        }
+
+        #support {
+          position: absolute;
+          bottom: 0;
+          height: fit-content;
+          width: 100vw;
+          display: flex;
+          align-items: flex-end;
+
+          &.inactive {
+            display: none;
+          }
+
+          #csa-holder,
+          #css-holder,
+          #bsa-holder,
+          #bss-holder,
+          #boa-holder {
+            position: absolute;
+
+            &.peep {
+              height: auto;
+              transition: all 0.25s ease;
+            }
+          }
+
+          #csa-holder {
+            left: 15vw;
+            bottom: 2vh;
+          }
+
+          #css-holder {
+            left: 21vw;
+            bottom: 2vh;
+          }
+
+          #bss-holder {
+            left: 56vw;
+            bottom: 2vh;
+          }
+
+          #bsa-holder {
+            left: 65vw;
+            bottom: 2vh;
+          }
+
+          #boa-holder {
+            left: 70vw;
+            bottom: 2vh;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  body {
+    .zoom-box {
+      header {
+        height: 19vh;
+
+        .intro-text {
+          font-size: 1.75rem;
+          line-height: 2.25rem;
+        }
+
+        menu {
+          margin: 0 auto;
+          padding: 0;
+          width: 90vw;
+
+          p {
+            padding: 25px 8%;
+          }
+        }
+      }
+    }
+
+    #main {
+      #leadership {
+        top: 70vh;
+      }
+
+      #popup {
+        .peepInfo {
+          top: 20% !important;
+          transform: translateY(-10%) !important;
+
+          .popupTitle {
+            font-size: 1rem;
+          }
+          .popupText {
+            font-size: 0.75rem;
+            line-height: 1.25rem;
+          }
+
+          #closeBtn {
+            font-size: 0.75rem;
+            padding: 2%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes bounceIn {
+  from,
+  40%,
+  60%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  40% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}

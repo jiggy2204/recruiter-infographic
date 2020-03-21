@@ -1,0 +1,92 @@
+[
+    {
+        "id" : "am",
+        "role": "Account Manager (AM)" ,
+        "description": "Internal TEKsystems employee that focuses on providing solutions to our client’s business & technology needs. Ensures we place quality (technical & cultural fit) consultants."
+    },
+    {
+        "id" : "arm",
+        "role": "Account Recruiting Manager (ARM)",
+        "description": "An experienced recruiter that also manages the operational aspects of a current, high-volume account."
+    },
+    {
+        "id" : "amrl",
+        "role": "Account Manager Recruiter Lead (AMRL)",
+        "description": "An account manager whose responsibilities also include the support and development of 1-3 new recruiters (also known as a “pod”)."
+    },
+    {
+        "id" : "rl",
+        "role": "Recruiter Lead",
+        "description": "An experienced recruiter that also assumes responsibility for the support and development of 1-3 new recruiters (also known as a “pod”)."
+    },
+    {
+        "id" : "edbo",
+        "role": "Executive DBO (EDBO)",
+        "description": "A director responsible for managing a small group of offices, within a specific region; they partner with DBOs to support and grow individual field offices."
+    },
+    {
+        "id" : "bdm",
+        "role": "Business Development Manager (BDM)",
+        "description": "Internal TEKsystems job focusing on selling and developing our Global Services practice in the local market."
+    },
+    {
+        "id" : "boa",
+        "role": "Business Operations Associate (BOA)",
+        "description": "Provides exceptional customer service to clients by delivering timely and accurate billing. Partners with clients to stay current and continue using our services to achieve their goals."
+    },
+    {
+        "id" : "csa",
+        "role": "Customer Support Associate (CSA)",
+        "description": "Partners with Recruiters and Account Managers to create a positive experience for consultants by ensuring they are paid timely and accurately."
+    },
+    {
+        "id" : "css",
+        "role": "Customer Support Service (CSS)",
+        "description": "Provides exceptional customer service to clients by delivering timely and accurate billing. Partners with clients to stay current and continue using our services to achieve their goals."
+    },
+    {
+        "id" : "bsa",
+        "role": "Business Support Associate (BSA)",
+        "description": "This are almost identical to the CSA, only difference is that they are only in offices that have undergone the “Evolve” transition."
+    },
+    {
+        "id" : "bss",
+        "role": "Business Support Supervisor (BSS)",
+        "description": "This are almost identical to the CSS, only difference is that they are only in offices that have undergone the “Evolve” transition."
+    },
+    {
+        "id" : "dbo",
+        "role": "Director of Business Operations (DBO)",
+        "description": "Responsible for daily operations of a branch office (e.g., office productivity, morale, professional development, profit & loss, etc.)."
+    },
+    {
+        "id" : "nam",
+        "role": "National Account Manager (NAM)",
+        "description": "Solicits national business and manages the proposal process for supplemental services/projects."
+    },
+    {
+        "id" : "nr",
+        "role": "National Recruiter",
+        "description": "A recruiter that works for the TEKsystems National Recruiting Center. While they physically sit in one market, they recruit on business across the country."
+    },
+    {
+        "id" : "dl",
+        "role": "Division Lead (DL)",
+        "description": "Internal TEKsystems job focusing on developing customer strategy and helping new/underperforming AMs grow spread within their territories. Typically a senior/successful Account Manager."
+    },
+    {
+        "id" : "dm",
+        "role": "Delivery Manager (DM)",
+        "description": "Internal TEKsystems job focusing on driving strategy around getting a requirement up to presenting a candidate and closing the business. Heavy focus on D4 (steps 2-5 of the DBC). Works to improve performance with Recruiters and Account Managers."
+    },
+    {
+        "id" : "dna",
+        "role": "Director of National Accounts (DNA)",
+        "description": "Internal TEKsystems job focusing on overseeing a team of sellers nationwide that support one account driving overall company strategy to approach the specific customer."
+    },
+    {
+        "id" : "rvp",
+        "role": "Regional Vice President (RVP)",
+        "description": "Responsible for productivity (e.g., customer share, aggregate spread, client retention, etc.), morale, professional development and attrition for assigned region (i.e., Midwest, Northwest, Central, Northeast, Southeast and Canada)."
+    }
+]
